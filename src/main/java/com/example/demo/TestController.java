@@ -9,6 +9,7 @@ public class TestController {
     @GetMapping("/text")
     public String getText() {
         return "тест надпись";
+        return "проверка тест";
     }
 
     @GetMapping("/number")
